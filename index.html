@@ -5,17 +5,63 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Wynter Gailey" />
-        <meta name="description" content="This is a website created by Wynter Gailey for the WDD 131 - Dynamic Web Fundamentals Class. It is ment to be a testing ground for the concepts learned in the course." />
+        <meta name="description" content="This is a website created by Wynter Gailey for the WDD 131 - Dynamic Web Fundamentals Class. It is meant to be a testing ground for the concepts learned in the course." />
 
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./styles/base.css">
+
+        <script src="/scripts/getdates.js" async defer></script>
+
+
         <title>WDD 131 - Dynamic Web Fundamentals - Wynter Gailey</title>
         
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
+        <header>
+            <h1>>WDD 131 - Dynamic Web Fundamentals - Wynter Gailey</h1>
+            <nav> 
+                <ul>
+                    <li> <a href="https://www.linkedin.com/in/wynter-gailey-7389b0b8">LinkedIn</a></li>
+                    <li><a href="https://byui.instructure.com/">I-Learn</a></li>
+                    <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/14?lang=eng&id=p30#p30">Scripture</a></li>
+                    <li><a href="">Final Project</a></li>
+                </ul>
+
+            </nav>
+        </header>
+        <main>
+            <section class="card">
+                <h2  id="am">About Me</h2>
+                <p>My name is Wynter. Yes like the season but Utahified (if you know you know). Fun fact I was actually born in the Summer time unlike what many assume. 
+                    Another thing about me is I am a big fan of doing reasearch and learning in general. I am so glad I have been born in the Information Age where I can learn just about anything I want to if I put my mind to it.</p>
+                    <img src="./images/IMG_2635.jpg" 
+                         alt="Picture of Me"
+                         height="300"/>
+
+                <h2 id="fuf">Fun Facts about UT</h2>
+                <hr>
+                <p>Utah, known for its stunning landscapes and unique cultural heritage. It is home to five national parks, aptly nicknamed the "Mighty Five". 
+                    It also boasts the highest literacy rate in the United States and is famous for having the largest population of Mormons in the country. 
+                    Notably, the Great Salt Lake, covering an area of around 1,700 square miles, is even saltier than the ocean, making it a unique natural wonder. 
+                    Additionally, Utah hosted the 2002 Winter Olympics, leaving behind a legacy of world-class winter sports facilities.</p>
+                    <img src="./images/Ut-flag.webp" 
+                         alt="Picture of Utahs flag"
+                         height="200">
+                
+            </section>
+            <section class="card" id="rsc">
+                <h2 id="rs">Some Useful Resources</h2>
+                <ul>
+                    <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                    <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+                    <li><a href="https://coolors.co/">Color Palette Generator</a></li>
+                    <li><a href="https://www.flaticon.com/icons">Icons</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p><span id="currentyear"></span> Wynter Gailey, ID</p>
+            <p id="lastModified"></p>
+        </footer>
     </body>
 </html>

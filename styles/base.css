@@ -1,0 +1,129 @@
+:root {
+    --color-1: #606C38;
+    --color-2: #283618;
+    --color-3: #FEFAE0;
+    --color-4: #DDA15E;
+    --color-5: #BC6C25;
+
+}
+
+header {
+    background-color: var(--color-2);
+    color:#FEFAE0 ; 
+    text-align: center;  
+}
+
+
+nav {
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+
+nav a {
+float: left;
+  padding: 12px;
+  color: var(--color-3);
+  text-decoration: none;
+  width: 23%;
+  text-align: center;
+    
+}
+
+nav li a:hover {
+    background-color: var(--color-1);
+    color: black;
+
+}
+
+
+main {
+    max-width: 1100px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+}
+
+
+hr {
+    width: 20rem;
+}
+
+
+.card {
+    
+    margin: 1rem;
+    border: 1px solid var(--color-2);
+    border-radius: 10px;
+}
+
+.card h2 {
+    grid-column: 1 / 4;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card li {
+    list-style-type: none;
+    margin: 50px 0px;
+    text-align: left;
+}
+
+.card img {
+    margin: 1.5rem; 
+}
+
+
+.card p {
+    margin: 1.5rem; 
+    grid-column: span 2;
+}
+
+#am {
+    text-align: center;
+    background-color: var(--color-4);
+}
+
+#fuf {
+    border-bottom: 1px solid var(--card-border-color);
+    margin: 0 5rem;
+}
+
+#rs {
+    background-color: var(--color-4); 
+    margin: 0 auto;
+}
+
+#rsc a {
+    text-decoration: none;
+}
+
+#rsc a:hover {
+    background-color: var(--color-3);
+    color: var(--color-2);
+}
+
+#rsc a:visited {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+#lastModified {
+    font-size: 1rem;
+}
