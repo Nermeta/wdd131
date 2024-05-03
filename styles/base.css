@@ -1,6 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
 
 :root {
     --color-1: #606C38;
@@ -11,8 +10,8 @@
 
 }
 
-body, title {
-    font-family: Roboto, Ubuntu Sans Mono,Arial;
+body, header {
+    font-family: Ubuntu Sans Mono, Arial;
 
 }
 
