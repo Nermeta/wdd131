@@ -6,10 +6,26 @@ const list         = document.querySelector('#list');
 const li           = document.createElement('li');
 const deleteButton = document.createElement('button');
 
-li.textContent =input.value;
 
-deleteButton.textContent = '❌';
+input.focus();
 
-li.append(deleteButton);
+button.addEventListener('click',function(){
+    if (input.value.trim() !== '') {
+        li.textContent =input.value;
+        deleteButton.textContent = '❌';
 
-list.append(li);
+        li.append(deleteButton);
+        list.append(li);
+
+        deleteButton.addEventListener('click',function(){
+           list.removeChild(li);
+           input.focus();
+
+           input.value = '';
+
+        });
+    }
+
+    else {input.focus()}
+    
+});
