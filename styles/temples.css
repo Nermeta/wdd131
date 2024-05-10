@@ -24,7 +24,6 @@ main h2 {
 .cards{
     display: grid;
     grid-template-columns: 1fr;
-    column-gap: 1fr 1fr;
     max-width: 640px;
 }
 
