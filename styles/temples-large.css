@@ -6,9 +6,18 @@
     .navigation {
         display: flex;
         text-align: center;
+        max-height: 100px;
     }
 
- 
+    .navigation a {
+        display: flex;
+    }
+    #gallery {
+        display: block; 
+        align-self: center;
+    }
+
+
 
     #hamburger {
         display: none;
