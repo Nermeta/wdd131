@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+        <title>Japan</title>
+
+        <meta name="description" content="Website about some weather information on Japan">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+        <link rel="stylesheet" href="/styles/place-desktop.css">
+        <link rel="stylesheet" href="/styles/place-mobile.css">
+        
+
+        <script src="/scripts/place.js" async defer></script> 
+        <script src="/scripts/getdates.js" async defer></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1>Japan</h1>
+
+        <div class="hero">
+
+            <picture id="hero-image">
+                <source media="(min-width: 900px)" srcset="/images/cherry-landscape.webp 6000w">
+                <source media="(max-width: 900px)" srcset="/images/cherry-portrait.webp 4912w" ">
+                <img src="/images/cherry-landscape.webp" alt="Landscape picture of Cherry Blossoms">
+            </picture>
+
+            <div id="data">
+                <h2>Data</h2>
+                <table>
+                    <tr>
+                        <td>Area:</td>
+                        <td>145,936 mi²</td>
+                    </tr>
+                    <tr>
+                        <td>Population:</td>
+                        <td>125.1 million</td>
+
+                    </tr>
+                </table>
+
+                <dl>
+        
+
+                    <dt>Capital:</dt>
+                    <dd>Tokyo</dd>
+
+                    <dt>Language:</dt>
+                    <dl>Japanese</dl>
+                </dl>
+                <ul>
+                    
+                    <li>Currency: Japanese Yen ¥</li>
+                    <li>Time Zone: UTC+9</li>
+                    <li>Calling code: +81</li>
+                    <li>Internet TLD: .jp</li>
+                </ul>
+            </div>
+
+            <div id="weather">
+               
+                <h2>Weather</h2>
+                <img id="icon" src="/images/partly-cloudy-icon.svg" alt="Partly Cloudy Icon">
+                <ul></ul>
+            </div>
+
+           
+
+
+        </div>
+
+      
+            
+
+      
+
+       
+        
+        <footer>
+            <p><span id="currentyear"></span> Wynter Gailey, ID</p>
+            <p id="lastModified"></p>
+        </footer>
+    </body>
+</html>

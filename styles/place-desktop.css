@@ -1,0 +1,71 @@
+
+h1 {
+    text-align: center;
+    background-color: pink;
+    margin: 0%;
+    height: 50px;
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: aquamarine;
+    overflow:auto;
+}
+
+
+
+#weather {
+    position: absolute;
+    bottom: 25%;
+    background-color: white;
+    right: 25px;
+    text-align: right;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 33% 33% 33%;
+    padding: 20px;
+ 
+}
+
+#weather h2 {
+   grid-column: 1/2 span;
+}
+
+#weather ul {
+    display: inline-block;
+    text-align: left;
+    list-style: none;
+    
+}
+
+#icon {
+    width: 50px;
+    
+}
+
+#data {
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: pink;
+    margin: 0%;
+    height: 50px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+footer, p {
+    margin: 0%;
+    
+}
