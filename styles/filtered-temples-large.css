@@ -3,6 +3,12 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     }
+    
+    .cards .temple-card {
+        border: 1px solid #ccc; 
+        margin: 10px; 
+        background-color: aliceblue;
+    }
 
     .navigation {
         display: flex;

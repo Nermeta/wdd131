@@ -74,7 +74,7 @@ const temples = [
         dedicated: "1893, April, 6",
         area: 253000,
         imageUrl:
-        "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-15669-main.jpg"
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/400x250/salt-lake-temple-37762.jpg"
 
 
       },
@@ -84,7 +84,7 @@ const temples = [
         dedicated: "1995, January, 8",
         area: 104000,
         imageUrl:
-        "https://churchofjesuschrist.org/imgs/0ef41c19f3cd8113dba38d4dfdca16a5d06cdcd5/full/320%2C/0/default"
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bountiful-utah/400x250/bountiful-temple-766347-wallpaper.jpg"
       },
       {
         templeName: "Laie Hawaii Temple",
@@ -92,7 +92,7 @@ const temples = [
         dedicated: "1919, November, 27",
         area: 47224,
         imageUrl:
-        "https://churchofjesuschristtemples.org/assets/img/temples/laie-hawaii-temple/laie-hawaii-temple-7370-main.jpg"
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/laie-hawaii/400x250/laie-temple-775370-wallpaper.jpg"
       },
   ];
 
