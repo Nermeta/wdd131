@@ -1,24 +1,18 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-
         <title>Japan</title>
-
         <meta name="description" content="Website about some weather information on Japan">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         
         <link rel="stylesheet" href="/styles/place-desktop.css">
         <link rel="stylesheet" href="/styles/place-mobile.css">
         
-
         <script src="/scripts/place.js" async defer></script> 
         <script src="/scripts/getdates.js" async defer></script>
     </head>
@@ -30,10 +24,9 @@
         <h1>Japan</h1>
 
         <div class="hero">
-
             <picture id="hero-image">
-                <source media="(min-width: 900px)" srcset="/images/cherry-landscape.webp 6000w">
-                <source media="(max-width: 900px)" srcset="/images/cherry-portrait.webp 4912w" ">
+                <source media="(min-width: 900px)" srcset="/images/cherry-landscape.webp 6000w" sizes="(min-width: 900px) 100vw, 100vw">
+                <source media="(max-width: 900px)" srcset="/images/cherry-portrait.webp 4912w" sizes="(max-width: 900px) 100vw, 100vw">
                 <img src="/images/cherry-landscape.webp" alt="Landscape picture of Cherry Blossoms">
             </picture>
 
@@ -47,24 +40,19 @@
                     <tr>
                         <td>Population:</td>
                         <td class="tl">125.1 million</td>
-
                     </tr>
-
                     <tr>
                         <td>Capital:</td>
                         <td class="tl">Tokyo</td>
                     </tr>
-
                     <tr>
                         <td>Language:</td>
                         <td class="tl">Japanese</td>
                     </tr>
-
                     <tr>
                         <td>Currency:</td>
                         <td class="tl">Japanese Yen ¥</td>
                     </tr>
-
                     <tr>
                         <td>Time Zone:</td>
                         <td class="tl">UTC+9</td>
@@ -81,7 +69,6 @@
             </div>
 
             <div id="weather">
-               
                 <h2>Weather</h2>
                 <img id="icon" src="/images/partly-cloudy-icon.svg" alt="Partly Cloudy Icon">
                 <table id="w-table">
@@ -103,19 +90,8 @@
                     </tr>
                 </table>
             </div>
-
-           
-
-
         </div>
 
-      
-            
-
-      
-
-       
-        
         <footer>
             <p><span id="currentyear"></span> Wynter Gailey, ID</p>
             <p id="lastModified"></p>
