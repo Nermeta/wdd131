@@ -1,0 +1,24 @@
+@media screen and (min-width: 688px){ 
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+    .navigation {
+        display: flex;
+        text-align: center;
+        max-height: 100px;
+    }
+
+    .navigation a {
+        display: flex;
+    }
+    #gallery {
+        display: block; 
+        align-self: center; 
+    }
+
+    #hamburger {
+        display: none;
+    }
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+
+*{
+    font-family: "Kalnia", sans-serif;
+}
+
+main,footer {
+    max-width: 640px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+#gallery {
+    text-align: center;
+}
+
+
+
+main h2 {
+    text-align: center;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 640px;
+}
+
+figure{
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#hamburger {
+    background-color: pink;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+
+}
+
+.bar1, .bar2, .bar3 {
+    display: flex;
+    width: 50px;
+    height: 5px;
+    background-color: #333;
+    margin: 9px 3px;
+    transition: 0.4s;
+  }
+  
+.change .bar1 {
+    transform: translate(0, 15px) rotate(-45deg);
+  }
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    transform: translate(0, -15px) rotate(45deg);
+  }
+
+
+
+.navigation {
+    display: flex;
+    background-color: pink;
+}
+
+.navigation a {
+    display: none; 
+    align-self: center;
+    text-decoration: none;  
+    flex: auto;
+    padding: 5%;
+ 
+}
+
+.navigation a:hover {
+    color:blueviolet;
+    display: block;
+    text-decoration: overline;
+}
+
+.active {
+    color: black;
+    font-style: italic;
+}
+
+.show a {
+    display: block;
+}
+
+footer {
+    text-align: center;
+}
