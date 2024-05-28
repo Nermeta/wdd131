@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+@font-face {
+    font-family: 'Ubuntu Sans Mono';
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/ubuntumono/v1/jVyR7mzgB....woff2') format('woff2');
+}
 
 *{
-    font-family: 'Ubuntu Sans Mono', sans-serif;
+    font-family: 'Ubuntu Sans Mono', Arial, sans-serif;
 }
+
+
 
 main,footer {
     max-width: 640px;
