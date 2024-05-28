@@ -1,8 +1,17 @@
 @media screen and (max-width: 900px) {
-    
-   .hero{
+   body {
       display: flex;
       flex-direction: column;
+      
+  }
+
+
+
+  h1 {
+   height: fit-content;
+  }
+    
+   .hero{
       background-color: white;
       padding: 0%;
       font-size: x-large;
