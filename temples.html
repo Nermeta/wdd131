@@ -1,106 +1,101 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Temple Gallery</title>
+    <title>Temple Gallery</title>
 
-        <meta name="description" content="These are various Latter Day Saint Temples">
-        <meta name="author" content="Wynter Gailey">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="These are various Latter Day Saint Temples">
+    <meta name="author" content="Wynter Gailey">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/temples.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="styles/temples-large.css" media="print" onload="this.media='all'">
+
+    <noscript>
         <link rel="stylesheet" href="styles/temples.css">
         <link rel="stylesheet" href="styles/temples-large.css">
+    </noscript>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-
-        <script src="scripts/temples.js" async defer></script>
-        <script src="scripts/getdates.js" async defer></script>
-    </head>
-    <body>
-        <header>
+    <script src="scripts/temples.js" async defer></script>
+    <script src="scripts/getdates.js" async defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <h1 id="gallery">Temple Gallery</h1>
+            <a href="" class="active">Home</a>
+            <a href="">Old</a>
+            <a href="">New</a>
+            <a href="">Large</a>
+            <a href="">Small</a>
             
-            <nav class="navigation">
-                <h1 id="gallery">Temple Gallery</h1>
-                <a href="" class="active">Home</a>
-                <a href="">Old</a>
-                <a href="">New</a>
-                <a href="">Large</a>
-                <a href="">Small</a>
-                
-                <button id="hamburger">
-                        <div class="bar1"></div>
-                        <div class="bar2"></div>
-                        <div class="bar3"></div>
-                </button>
-                
-            </nav>
-        </header>
+            <button id="hamburger"> Nav
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </button>
+        </nav>
+    </header>
 
-        <main>
+    <main>
+        <h2>Home</h2>
+        <div class="cards">
+            <figure>
+                <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple">
+                <figcaption>Temple 1</figcaption>
+            </figure>
 
-            <h2>Home</h2>
+            <figure>
+                <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple">
+                <figcaption>Temple 2</figcaption>
+            </figure>
 
-            <div class="cards">
+            <figure>
+                <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple">
+                <figcaption>Temple 3</figcaption>
+            </figure>
 
-                <figure>
-                    <img src="images/salt-lake-temple.png" alt="A picture of the Salt Lake City Temple">
-                    <figcaption>Temple 1</figcaption>
-                </figure>
-    
-                <figure>
-                    <img src="images/salt-lake-temple.png" alt="A picture of the Salt Lake City Temple">
-                    <figcaption>Temple 2</figcaption>
-                </figure>
-    
-                <figure>
-                    <img src="images/salt-lake-temple.png" alt="A picture of the Salt Lake City Temple">
-                    <figcaption>Temple 3</figcaption>
-                </figure>
-    
-                <figure>
-                    <img src="images/salt-lake-temple.png" alt="A picture of the Salt Lake City Temple">
-                    <figcaption>Temple 4</figcaption>
-                </figure>
-    
-                <figure>
-                    <img src="images/salt-lake-temple.png" alt="A picture of the Salt Lake City Temple">
-                    <figcaption>Temple 5</figcaption>
-                </figure>
-    
-                <figure>
-                    <img src="images/salt-lake-temple.png" alt="A picture of the Salt Lake City Temple">
-                    <figcaption>Temple 6</figcaption>
-                </figure>
-    
-                <figure>
-                    <img src="images/salt-lake-temple.png" alt="A picture of the Salt Lake City Temple">
-                    <figcaption>Temple 7</figcaption>
-                </figure>
-    
-                <figure>
-                    <img src="images/salt-lake-temple.png" alt="A picture of the Salt Lake City Temple">
-                    <figcaption>Temple 8</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/salt-lake-temple.png" alt="A picture of the Salt Lake City Temple">
-                    <figcaption>Temple 9</figcaption>
-                </figure>
-    
+            <figure>
+                <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple">
+                <figcaption>Temple 4</figcaption>
+            </figure>
 
-            </div>
+            <figure>
+                <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple">
+                <figcaption>Temple 5</figcaption>
+            </figure>
 
+            <figure>
+                <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple">
+                <figcaption>Temple 6</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple">
+                <figcaption>Temple 7</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple">
+                <figcaption>Temple 8</figcaption>
+            </figure>
             
-        </main>
+            <figure>
+                <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple">
+                <figcaption>Temple 9</figcaption>
+            </figure>
+        </div>
+    </main>
 
-        <footer>
-
-            <p><span id="currentyear"></span> Wynter Gailey, ID</p>
-            <p id="lastModified"></p>
-
-        </footer>
-    </body>
+    <footer>
+        <p><span id="currentyear"></span> Wynter Gailey, ID</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
 </html>
