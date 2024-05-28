@@ -1,6 +1,6 @@
 
 /* Preconnect to Google Fonts service */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap') preconnect;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
 
 :root {
     --primary-font: 'Ubuntu Sans Mono', Arial;
