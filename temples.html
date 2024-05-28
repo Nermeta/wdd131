@@ -3,24 +3,32 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>Temple Gallery</title>
-
-    <meta name="description" content="These are various Latter Day Saint Temples">
-    <meta name="author" content="Wynter Gailey">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" as="style">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap">
+    <title>Temple Gallery</title>
+    <meta name="description" content="These are various Latter Day Saint Temples">
+    <meta name="author" content="Wynter Gailey">
 
-
+    <!-- Preconnect to required origins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
+    <!-- Preload and load fonts efficiently -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap">
+    </noscript>
+
+    <!-- Load CSS efficiently -->
     <link rel="stylesheet" href="styles/temples.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="styles/temples-large.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="styles/temples.css">
+        <link rel="stylesheet" href="styles/temples-large.css">
+    </noscript>
 
+    <!-- Load JavaScript asynchronously and defer execution -->
     <script src="scripts/temples.js" async defer></script>
     <script src="scripts/getdates.js" async defer></script>
 </head>
@@ -33,7 +41,6 @@
             <a href="">New</a>
             <a href="">Large</a>
             <a href="">Small</a>
-            
             <button id="hamburger"> Nav
                 <span class="bar1"></span>
                 <span class="bar2"></span>
@@ -49,42 +56,35 @@
                 <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple" width="300" height="200">
                 <figcaption>Temple 1</figcaption>
             </figure>
-
+            <!-- Repeat for other figures with specified width and height -->
             <figure>
                 <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple" width="300" height="200">
                 <figcaption>Temple 2</figcaption>
             </figure>
-
             <figure>
                 <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple" width="300" height="200">
                 <figcaption>Temple 3</figcaption>
             </figure>
-
             <figure>
                 <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple" width="300" height="200">
                 <figcaption>Temple 4</figcaption>
             </figure>
-
             <figure>
                 <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple" width="300" height="200">
                 <figcaption>Temple 5</figcaption>
             </figure>
-
             <figure>
                 <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple" width="300" height="200">
                 <figcaption>Temple 6</figcaption>
             </figure>
-
             <figure>
                 <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple" width="300" height="200">
                 <figcaption>Temple 7</figcaption>
             </figure>
-
             <figure>
                 <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple" width="300" height="200">
                 <figcaption>Temple 8</figcaption>
             </figure>
-            
             <figure>
                 <img src="images/salt-lake-temple.webp" alt="A picture of the Salt Lake City Temple" width="300" height="200">
                 <figcaption>Temple 9</figcaption>
