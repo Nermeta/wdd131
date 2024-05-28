@@ -35,6 +35,13 @@ img {
     height: auto;
 }
 
+button {
+
+    font-size: 0;
+    
+}
+
+
 #hamburger {
     background-color: pink;
     border: none;
