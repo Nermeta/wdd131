@@ -34,5 +34,5 @@ img {
 }
 
 #desktop {
-    rotate: 270deg;
+    transform: rotate(270deg);
 }
