@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sevillana&display=swap');
+
+.sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
+ul {
+    display: block;
+  background-color: #CDB4DB;
+  box-shadow: 10px 5px 5px #BDE0FE;
+}
+h1 {
+    display: block;
+    background-color: #A2D2FF;
+    box-shadow: 10px 5px 5px #FFC8DD;
+    font-family: "Sevillana";
+
+}
+button {
+    background-color: #A2D2FF ;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+  height: auto;
+}
+
+#desktop {
+    rotate: -90deg;
+}
