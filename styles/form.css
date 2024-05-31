@@ -107,6 +107,13 @@ input[type="submit"]:hover {
   .star-rating input:checked ~ label:before {
     content:'\2605';
   }
+
+  
+.star-rating {
+
+    font-size: 0;
+    
+}
   
   @-moz-document url-prefix() {
     .star-rating input:checked ~ label:before {
