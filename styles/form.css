@@ -109,11 +109,7 @@ input[type="submit"]:hover {
   }
 
   
-.star-rating label{
 
-    font-size: 0;
-    
-}
   
   @-moz-document url-prefix() {
     .star-rating input:checked ~ label:before {
