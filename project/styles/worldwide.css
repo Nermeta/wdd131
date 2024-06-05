@@ -1,0 +1,17 @@
+.hero-image {
+    margin-top: 15px;
+    position: relative;
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #hero-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/project/images/indinan-embroidery.jpg');
+  }
+
+  
+  #hero-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/project/images/japanese-embroidery.jpg');
+  }
