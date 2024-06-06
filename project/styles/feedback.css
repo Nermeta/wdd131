@@ -1,55 +1,64 @@
-body {
-    background-color: #f4f4f4;
+:root {
+    --bg-color-body: #f4f4f4;
+    --color-text-nav: #fff;
+    --bg-color-form: #fff;
+    --border-color-form: #ccc;
+    --bg-color-submit: #4caf50;
+    --bg-color-submit-hover: #45a049;
+  }
+  
+  body {
+    background-color: var(--bg-color-body);
     margin: 0;
     padding: 0;
-}
-
-
-
-header nav ul {
+  }
+  
+  header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-header nav ul li {
+  }
+  
+  header nav ul li {
     display: inline;
     margin-right: 20px;
-}
-
-header nav ul li a {
-    color: #fff;
+  }
+  
+  header nav ul li a {
+    color: var(--color-text-nav);
     text-decoration: none;
-}
-
-.container {
+  }
+  
+  .container {
     margin: 50px auto;
     width: 80%;
-}
-
-form {
-    background-color: #fff;
+  }
+  
+  form {
+    background-color: var(--bg-color-form);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-label {
+  }
+  
+  label {
     display: block;
     margin-bottom: 10px;
-}
-
-input[type="text"], input[type="email"], textarea {
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border-color-form);
     border-radius: 4px;
     box-sizing: border-box;
-}
-
-input[type="submit"] {
-    background-color: #4caf50;
+  }
+  
+  input[type="submit"] {
+    background-color: var(--bg-color-submit);
     color: white;
     padding: 10px 20px;
     border: none;
@@ -57,8 +66,9 @@ input[type="submit"] {
     cursor: pointer;
     margin-top: 20px;
     width: 100%;
-}
-
-input[type="submit"]:hover {
-    background-color: #45a049;
-}
+  }
+  
+  input[type="submit"]:hover {
+    background-color: var(--bg-color-submit-hover);
+  }
+  

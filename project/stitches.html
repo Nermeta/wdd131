@@ -5,30 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Embroidery Stitches</title>
-    <meta name="description" content="Home Page for Wynter's Wonders">
+    <title>Embroidery Stitches | Wynter's Wonders</title>
+    <meta name="description" content="Explore a variety of embroidery stitches at Wynter's Wonders.">
     <meta name="author" content="Wynter Gailey">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sevillana&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sevillana&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sevillana&display=swap"></noscript>
 
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/stitches.css">
-    <script src="scripts/base.js" async defer></script>
-    <script src="scripts/stitches.js" async defer></script>
-    
-
+    <script src="scripts/base.js" defer></script>
+    <script src="scripts/stitches.js" defer></script>
 </head>
 <body>
     <header>
         <nav class="navigation">
             <h1 id="gallery">Wynter's Wonders</h1>
             <a href="index.html">Home</a>
-            <a href="stitches.html">Stitches</a>
+            <a href="stitches.html" class="active">Stitches</a>
             <a href="worldwide.html">Around the World</a>
             <a href="feedback.html">Feedback</a>
-            <button id="hamburger"> Nav
+            <button id="hamburger" aria-label="Navigation Menu">Nav
                 <span class="bar1"></span>
                 <span class="bar2"></span>
                 <span class="bar3"></span>
@@ -38,14 +37,15 @@
 
     <main>
         <h1>Stitches</h1>
-    <div class="cards">
-    </div>
-        
+        <div class="cards">
+            <!-- Content for stitches will go here -->
+        </div>
     </main>
 
     <footer>
-        <p><span id="currentyear"></span> Wynter Gailey, ID</p>
-        <p id="lastModified"></p>
+        <p>&copy; <span id="currentyear"></span> Wynter Gailey, ID</p>
+        <p id="lastModified">Last modified: <span id="modifiedDate"></span></p>
     </footer>
 </body>
 </html>
+

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -6,19 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Wynter's Wonders Home</title>
-    <meta name="description" content="Home Page for Wynter's Wonders">
+    <title>Home | Wynter's Wonders</title>
+    <meta name="description" content="Home Page for Wynter's Wonders, a cozy corner dedicated to the art of embroidery.">
     <meta name="author" content="Wynter Gailey">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sevillana&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sevillana&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sevillana&display=swap"></noscript>
 
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/index.css">
-    <script src="scripts/base.js" async defer></script>
-    
-
+    <script src="scripts/base.js" defer></script>
 </head>
 <body>
     <header>
@@ -28,7 +26,7 @@
             <a href="stitches.html">Stitches</a>
             <a href="worldwide.html">Around the World</a>
             <a href="feedback.html">Feedback</a>
-            <button id="hamburger"> Nav
+            <button id="hamburger" aria-label="Navigation Menu">Nav
                 <span class="bar1"></span>
                 <span class="bar2"></span>
                 <span class="bar3"></span>
@@ -45,22 +43,18 @@
         <div class="box">
             <div class="paragraph">
                 <p>Welcome to Wynter's Wonders! <br>
-    
                     Thank you for stopping by Wynter's Wonders! Here, you'll find a cozy corner of the internet dedicated to the art of embroidery. Whether you're a seasoned stitcher or just beginning your embroidery journey, I'm delighted to have you here. <br>
-                    
-                    Embroidery is more than just a craft—it's a journey of creativity, expression, and discovery. As you explore Wynter's Wonders, I hope you'll enjoy diving into the rich tapestry of information and inspiration that awaits you.  <br>
-                    
+                    Embroidery is more than just a craft—it's a journey of creativity, expression, and discovery. As you explore Wynter's Wonders, I hope you'll enjoy diving into the rich tapestry of information and inspiration that awaits you. <br>
                     From beginner-friendly tutorials to advanced techniques, from historical insights to modern trends, there's something here for everyone. So grab your needle and thread, and let's embark on this stitching adventure together! <br>
-                    
                     I hope you have a fun time in visiting the little tidbits of embroidery information hosted here. Happy stitching!</p>
             </div>
         </div>
-        
     </main>
 
     <footer>
-        <p><span id="currentyear"></span> Wynter Gailey, ID</p>
-        <p id="lastModified"></p>
+        <p>&copy; <span id="currentyear"></span> Wynter Gailey, ID</p>
+        <p id="lastModified">Last modified: <span id="modifiedDate"></span></p>
     </footer>
 </body>
 </html>
+

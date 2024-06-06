@@ -1,63 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sevillana&display=swap');
 
+:root {
+  --font-primary: 'Sevillana', cursive;
+  --font-secondary: sans-serif;
+  --color-bg: #CDB4DB;
+  --color-bg-light: #A2D2FF;
+  --color-bg-dark: #BDE0FE;
+  --color-shadow: #FFC8DD;
+  --color-text: #333;
+  --color-highlight: blueviolet;
+}
+
+body {
+  font-family: var(--font-secondary);
+}
+
 .sevillana-regular {
-    font-family: "Sevillana", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  
+  font-family: var(--font-primary);
+}
 
 ul {
-    display: block;
-  background-color: #CDB4DB;
-  box-shadow: 10px 5px 5px #BDE0FE;
+  display: block;
+  background-color: var(--color-bg);
+  box-shadow: 10px 5px 5px var(--color-bg-dark);
 }
-h1 {
-    display: block;
-    background-color: #A2D2FF;
-    font-family: "Sevillana";
-    text-align: center;
-    
 
+h1 {
+  display: block;
+  background-color: var(--color-bg-light);
+  font-family: var(--font-primary);
+  text-align: center;
 }
+
 button {
-    background-color: #A2D2FF ;
-    font-size: 0;
+  background-color: var(--color-bg-light);
+  font-size: 0;
 }
 
 p {
-    font-family: sans-serif;
+  font-family: var(--font-secondary);
 }
 
 img {
-    width: 100%;
+  width: 100%;
   height: auto;
 }
 
 #desktop {
-    transform: rotate(270deg);
+  transform: rotate(270deg);
 }
 
 #gallery {
   text-align: center;
 }
 
-
-
 #hamburger {
-  background-color: #A2D2FF;
+  background-color: var(--color-bg-light);
   border: none;
   cursor: pointer;
   margin-left: auto;
-
 }
 
 .bar1, .bar2, .bar3 {
   display: flex;
   width: 50px;
   height: 5px;
-  background-color: #333;
+  background-color: var(--color-text);
   margin: 9px 3px;
   transition: 0.4s;
 }
@@ -66,32 +74,30 @@ img {
   transform: translate(0, 15px) rotate(-45deg);
 }
 
-.change .bar2 {opacity: 0;}
+.change .bar2 {
+  opacity: 0;
+}
 
 .change .bar3 {
   transform: translate(0, -15px) rotate(45deg);
 }
 
-
-
 .navigation {
   display: flex;
-  background-color: #A2D2FF;
-  box-shadow: 10px 5px 5px #FFC8DD;
+  background-color: var(--color-bg-light);
+  box-shadow: 10px 5px 5px var(--color-shadow);
 }
 
 .navigation a {
-  display: none; 
+  display: none;
   align-self: center;
-  text-decoration: none;  
+  text-decoration: none;
   flex: auto;
   padding: 5%;
-
 }
 
 .navigation a:hover {
-  color:blueviolet;
-  display: block;
+  color: var(--color-highlight);
   text-decoration: overline;
 }
 
@@ -104,14 +110,11 @@ img {
   display: block;
 }
 
-
 .hero-image {
   position: relative;
   text-align: center;
   color: white;
 }
-
-
 
 .hero-text {
   position: absolute;
@@ -127,22 +130,22 @@ img {
   background-color: transparent;
 }
 
-
-p{
+p {
   text-align: center;
 }
 
 .box {
-  background-color: #f9f9f9; /* Light gray background color */
-  padding: 20px; /* Add some padding around the content */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .paragraph {
-  font-size: 1.1em; /* Adjust the font size */
-  line-height: 1.6; /* Adjust the line height for readability */
+  font-size: 1.1em;
+  line-height: 1.6;
 }
+
 
 
 footer {
@@ -150,26 +153,23 @@ footer {
   background-color: #f9f9f9;
 }
 
-@media screen and (min-width: 688px){ 
-
+@media screen and (min-width: 688px) {
   .navigation {
-      display: flex;
-      text-align: center;
-      max-height: 100px;
+    display: flex;
+    text-align: center;
+    max-height: 100px;
   }
 
   .navigation a {
-      display: flex;
+    display: flex;
   }
+
   #gallery {
-      display: block; 
-      align-self: center;
+    display: block;
+    align-self: center;
   }
-
-
 
   #hamburger {
-      display: none;
+    display: none;
   }
 }
-
