@@ -59,29 +59,27 @@ stitches.forEach((stitch) => {
 });
 
 function createStitchCard(stitch) {
-    // Create stitch card container
     const card = document.createElement('div');
     card.classList.add('stitch-card');
 
-    // Create stitch name element
     const name = document.createElement('h2');
     name.textContent = stitch.stitchName;
 
-    // Create stitch image element
+
     const image = document.createElement('img');
     image.src = stitch.imageUrl;
     image.alt = stitch.stitchName;
-    image.loading = 'lazy'; // native lazy loading
+    image.loading = 'lazy'; 
+    image.width = 300; 
+    image.height = 200; 
 
-    // Create stitch description element
+
     const desc = document.createElement('p');
     desc.textContent = stitch.description;
 
-    // Append elements to card container
     card.appendChild(name);
     card.appendChild(image);
     card.appendChild(desc);
 
-    // Append card to main container
     mainContainer.appendChild(card);
 }
